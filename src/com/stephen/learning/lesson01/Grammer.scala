@@ -35,6 +35,9 @@ object Grammer {
     val str="hello world"
     println(str.distinct)
     println(str.apply(6)+"-------"+str.charAt(6))
-    printf("hello world")
+    printf("hello world,%s\n","jack")
+
+    //直接调用Java代码
+    System.out.println("this is a scala app!")
   }
 }

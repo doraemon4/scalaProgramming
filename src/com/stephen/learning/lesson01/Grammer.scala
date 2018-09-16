@@ -29,6 +29,8 @@ object Grammer {
     //定义数组
     var array=Array(1,2,3,"5","hello");
     println(array.size)
+    println("数组的头："+array.head)
+    println("数组的尾长度："+array.tail.size)
     println("第5个值为:"+array.apply(4))
 
     //定义字符串

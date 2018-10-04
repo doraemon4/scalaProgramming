@@ -44,6 +44,7 @@ class Person(name: String, gender: String, age: Int) {
 
   //辅助构造函数(可以有默认值）
   def this(name: String, gender: String, age: Int, address: String = "china") {
+    //必须放在第一行
     this(name, gender, age)
     this.address = address
   }
@@ -58,4 +59,5 @@ class Person(name: String, gender: String, age: Int) {
     students.append(student)
     student
   }
+
 }
